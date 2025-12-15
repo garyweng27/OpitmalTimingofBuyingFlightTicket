@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # 1. Load your dataset
 # Replace 'your_file.csv' with your actual file name
-df = pd.read_csv('OpitmalTimingofBuyingFlightTicket/dataset/Clean_Dataset.csv')
+df = pd.read_csv('./dataset/Clean_Dataset.csv')
 
 # 2. Ensure dates are in the correct format
 # df['booking_date'] = pd.to_datetime(df['booking_date'])
